@@ -49,6 +49,10 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
     gap: 20px;
+ /* I couldnt divide the three boxes (8-10 evenly between 5 rows without
+ doing another container and make them items in that one. Is there anyway
+ to break rows with grid-area? For example half-rows or something like that? 
+ I tried using rownr.5 but it didn't work.*/   
 }
 .eight {
     background-color: rgb(255, 175, 175);
